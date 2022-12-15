@@ -88,3 +88,10 @@ source /opt/ros/humble/setup.bash
 source ~/ros2_ws/install/local_setup.bash
 
 ros2 run cv_basics img_subscriber 
+
+
+
+
+Note:
+mean pixle value will be printed in img-publisher terminal. It can also be seen using ros2 topic echo /mean_pixel_value
+
